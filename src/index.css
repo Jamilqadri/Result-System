@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Aslam';
+  src: url('/fonts/Aslam.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aslam Aslam';
+  src: url('/fonts/Aslam.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alvi Nastaleeq Regular';
+  src: url('/fonts/AlviNastaleeq.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alvi Nastaleeq';
+  src: url('/fonts/AlviNastaleeq.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alvi Nastaliq';
+  src: url('/fonts/AlviNastaleeq.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-aslam: 'Aslam', 'Aslam Aslam', 'Noto Nastaliq Urdu', 'Gulzar', serif;
+  --font-alvi: 'Alvi Nastaleeq Regular', 'Alvi Nastaleeq', 'Alvi Nastaliq', 'Noto Nastaliq Urdu', 'Gulzar', 'Jameel Noori Nastaleeq', serif;
+  --font-nastaliq: 'Alvi Nastaleeq Regular', 'Alvi Nastaleeq', 'Alvi Nastaliq', 'Noto Nastaliq Urdu', 'Gulzar', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  --font-qalam: 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', serif;
+  --font-urdu: 'Alvi Nastaleeq Regular', 'Alvi Nastaleeq', 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', 'Noto Sans Arabic', system-ui, sans-serif;
+  --font-arabic: 'Noto Naskh Arabic', 'Noto Sans Arabic', system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* 
+ * Urdu and Arabic Typography Fixes:
+ * 1. Zero letter-spacing: letter-spacing causes Arabic/Urdu cursive ligatures to break.
+ * 2. Proper line-height: prevents diacritics and letters from climbing or colliding vertically.
+ * 3. OpenType features: enables cursive joins, standard ligatures, and contextual alternates.
+ */
+html, body {
+  font-family: 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Segoe UI', Tahoma, system-ui, sans-serif;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+  min-height: 100vh;
+}
+
+[dir="rtl"], [lang="ur"], [lang="ar"], .font-urdu, .font-qalam, .font-arabic, .font-nastaliq, .font-aslam, .font-alvi {
+  letter-spacing: 0 !important;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+/* Distinctive Aslam Urdu Calligraphic Font ONLY for Institution / Madrasa Name */
+.font-aslam {
+  font-family: 'Aslam', 'Aslam Aslam', 'Noto Nastaliq Urdu', 'Gulzar', serif !important;
+  letter-spacing: 0 !important;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+/* Authentic Alvi Nastaleeq Font for All other Urdu Text on Result Card */
+.font-alvi {
+  font-family: 'Alvi Nastaleeq Regular', 'Alvi Nastaleeq', 'Alvi Nastaliq', 'Noto Nastaliq Urdu', 'Gulzar', 'Jameel Noori Nastaleeq', serif !important;
+  letter-spacing: 0 !important;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+/* Ensure Result Card strictly applies Aslam only to institution name, and Alvi Nastaleeq Regular to all other Urdu words */
+#madrasa-result-card .font-aslam {
+  font-family: 'Aslam', 'Aslam Aslam', 'Noto Nastaliq Urdu', 'Gulzar', serif !important;
+  letter-spacing: 0 !important;
+}
+
+#madrasa-result-card .font-alvi,
+#madrasa-result-card .font-nastaliq {
+  font-family: 'Alvi Nastaleeq Regular', 'Alvi Nastaleeq', 'Alvi Nastaliq', 'Noto Nastaliq Urdu', 'Gulzar', 'Jameel Noori Nastaleeq', serif !important;
+  letter-spacing: 0 !important;
+}
+
+/* Exquisite Urdu Nastaliq Font (for titles, student cards, official headings) */
+.font-nastaliq {
+  font-family: 'Alvi Nastaleeq Regular', 'Alvi Nastaleeq', 'Alvi Nastaliq', 'Noto Nastaliq Urdu', 'Gulzar', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif !important;
+  line-height: 2.2;
+  letter-spacing: 0 !important;
+}
+
+/* Calligraphic Arabic Al-Qalam Font for Madrasa Name */
+.font-qalam {
+  font-family: 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', serif !important;
+  line-height: 1.8;
+  letter-spacing: 0 !important;
+}
+
+/* Clean, highly readable Urdu/Arabic Font for UI buttons, tables, cards, labels */
+.font-urdu, .font-arabic {
+  font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Noto Sans Arabic', system-ui, sans-serif !important;
+  line-height: 1.9;
+  letter-spacing: 0 !important;
+}
+
+.font-amiri {
+  font-family: 'Amiri', 'Scheherazade New', serif !important;
+  line-height: 1.8;
+  letter-spacing: 0 !important;
+}
+
+/* Islamic aesthetics */
+.islamic-border {
+  border: 2px solid currentColor;
+  position: relative;
+}
+
+.islamic-border-double {
+  border: 4px double currentColor;
+}
+
+.islamic-watermark {
+  background-image: radial-gradient(circle at center, rgba(16, 185, 129, 0.03) 0, transparent 70%);
+}
+
+/* Ensure number inputs show full digits without browser spinner obstruction */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Official A4 Landscape Gazette Print Styles (ڈاؤن لوڈ پی ڈی ایف / نوٹس بورڈ پرنٹ) */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 7mm 8mm;
+  }
+
+  html.gazette-print-active,
+  html:has(body.gazette-print-active),
+  body.gazette-print-active {
+    overflow: visible !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    background: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body.gazette-print-active > :not(#gazette-print-sheet) {
+    display: none !important;
+  }
+
+  body.gazette-print-active #gazette-print-sheet {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    background: #ffffff !important;
+    color: #111827 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body.gazette-print-active #gazette-print-sheet * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body.gazette-print-active #gazette-print-sheet .gazette-frame {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  body.gazette-print-active #gazette-print-sheet table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+  }
+
+  body.gazette-print-active #gazette-print-sheet thead {
+    display: table-header-group !important;
+  }
+
+  body.gazette-print-active #gazette-print-sheet tr {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  body.gazette-print-active #gazette-print-sheet .gazette-header-block,
+  body.gazette-print-active #gazette-print-sheet .gazette-signatures {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+}

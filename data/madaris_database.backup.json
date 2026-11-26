@@ -1,0 +1,1119 @@
+{
+  "adminPin": "MM2020",
+  "resultAdminPin": "MM2020",
+  "managerAdminPin": "Imamat2026",
+  "jobSerialNumber": 1114,
+  "jobAppsScriptUrl": "https://script.google.com/macros/s/AKfycbwgZpWr_m-6oJlQDjv3WTc39EfHuK9bpPzKh10BQkNgtv_Y8TCuvLsoH_uXNQiWPKl0/exec",
+  "jobSubmissions": [
+    {
+      "serialNumber": 1113,
+      "jobCategory": "مؤذن و خادم",
+      "institutionName": "Dggg",
+      "location": "Dghh",
+      "salaryRange": "Cvvg",
+      "contactPerson": "Fgg",
+      "contactNumber": "568888",
+      "requirements": "",
+      "submittedAt": "11 Oct 2026, 08:21 pm",
+      "id": "job-1791730274501-aig4m",
+      "createdAt": "2026-10-11T14:51:14.501Z"
+    },
+    {
+      "serialNumber": 1112,
+      "jobCategory": "امام و خطیب",
+      "institutionName": "جامع مسجد فیضانِ مدینہ",
+      "location": "پٹنہ، بہار",
+      "salaryRange": "15,000 تا 18,000 روپئے (مع طعام و قیام)",
+      "contactPerson": "محمد عرفان رضا صاحب",
+      "contactNumber": "917398831630",
+      "requirements": "صحیح العقیدہ سنی حنفی، حافظ و قاری، خوش الحان، تجربہ کار",
+      "date": "11 Oct 2026, 07:58 PM",
+      "id": "job-1791728897052-09hly",
+      "createdAt": "2026-10-11T14:28:17.052Z"
+    }
+  ],
+  "madaris": [
+    {
+      "id": "madrasa-faizan-ala-hazrat",
+      "code": "MM11",
+      "serialNumber": 11,
+      "urduName": "دارالعلوم فیضان اعلی حضرت",
+      "englishName": "Darul Uloom Faizan-e-Ala Hazrat",
+      "address": "اعظم گڑھ مبارک پور اتر پردیش",
+      "description": "دارالعلوم فیضان اعلی حضرت، مبارک پور، اعظم گڑھ، اتر پردیش",
+      "logo": "",
+      "themeColor": "#15345d",
+      "contactPhone": "9110098590",
+      "principalName": "مفتی احمد رضا",
+      "principalPhone": "9110098590",
+      "principalId": "MM11",
+      "principalPassword": "MM11@1234",
+      "examTitle": "سالانہ امتحانات 1447-1448ھ 2026ء",
+      "kaifiyatRules": [
+        {
+          "id": "1",
+          "minPercentage": 80,
+          "maxPercentage": 100,
+          "title": "ممتاز",
+          "colorClass": "text-emerald-700 bg-emerald-50 border-emerald-300"
+        },
+        {
+          "id": "2",
+          "minPercentage": 60,
+          "maxPercentage": 79.99,
+          "title": "اعلیٰ",
+          "colorClass": "text-blue-700 bg-blue-50 border-blue-300"
+        },
+        {
+          "id": "3",
+          "minPercentage": 50,
+          "maxPercentage": 59.99,
+          "title": "جید",
+          "colorClass": "text-amber-700 bg-amber-50 border-amber-300"
+        },
+        {
+          "id": "4",
+          "minPercentage": 33,
+          "maxPercentage": 49.99,
+          "title": "مقبول",
+          "colorClass": "text-stone-700 bg-stone-100 border-stone-300"
+        }
+      ],
+      "passingSettings": {
+        "passingPercentage": 33,
+        "oneSubjectFailLabel": "مجاز",
+        "twoOrMoreFailLabel": "ناکام",
+        "absentFailLabel": "ناکام"
+      },
+      "permissions": {
+        "principalCanPublish": true,
+        "principalCanUnpublish": true,
+        "principalCanAddStudents": true,
+        "principalCanEditMarks": true
+      },
+      "registrationStatus": "approved",
+      "isVerified": true,
+      "createdAt": "2026-10-16T18:18:41.105Z",
+      "updatedAt": "2026-10-16T18:18:41.105Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-faizan-idadiyya",
+      "madrasaId": "madrasa-faizan-ala-hazrat",
+      "name": "اعدادیہ",
+      "nameEn": "I'dadiyya",
+      "academicYear": "1447-1448ھ / 2025-2026ء",
+      "status": "published",
+      "resultSourceType": "csv",
+      "googleSheetUrl": "",
+      "sheetTabName": "اعدادیہ",
+      "rawSourceData": "Student ID,DOB,Student Name,Father Name,قرآن و تجوید [100],اردو و املا [100],دینیات و فقہ [100],فارسی و گرائمر [100],ریاضی و حساب [100]\n1101,12/04/2010,محمد رضوان رضا,محمد سلیمان رضا,92,88,90,85,94\n1102,05/08/2009,حامد رضا نوری,قاری مقصود عالم,78,80,75,72,85\n1103,18/11/2010,عبد الرحیم برکاتی,حافظ نور محمد,65,70,68,62,75\n1104,22/02/2010,محمد ثاقب رضا,مولانا رفیق احمد,55,58,52,54,61",
+      "lastTestedAt": "2026-10-16T18:18:41.106Z",
+      "testStatus": {
+        "success": true,
+        "message": "✅ Connected\nStudents Found: 4\nSubjects Found: 5\nRequired Fields Found\nResult Data Ready",
+        "studentCount": 4,
+        "subjectCount": 5,
+        "subjects": [
+          {
+            "name": "قرآن و تجوید",
+            "maxMarks": 100
+          },
+          {
+            "name": "اردو و املا",
+            "maxMarks": 100
+          },
+          {
+            "name": "دینیات و فقہ",
+            "maxMarks": 100
+          },
+          {
+            "name": "فارسی و گرائمر",
+            "maxMarks": 100
+          },
+          {
+            "name": "ریاضی و حساب",
+            "maxMarks": 100
+          }
+        ],
+        "missingFields": []
+      },
+      "students": [
+        {
+          "studentId": "1101",
+          "dob": "12/04/2010",
+          "studentName": "محمد رضوان رضا",
+          "studentNameEn": "Mohammad Rizwan Raza",
+          "fatherName": "محمد سلیمان رضا",
+          "fatherNameEn": "Mohammad Sulaiman Raza",
+          "rollNo": "01",
+          "darja": "اعدادیہ",
+          "subjects": [
+            {
+              "name": "قرآن و تجوید",
+              "maxMarks": 100,
+              "obtainedMarks": 92,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 92
+            },
+            {
+              "name": "اردو و املا",
+              "maxMarks": 100,
+              "obtainedMarks": 88,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 88
+            },
+            {
+              "name": "دینیات و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 90,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 90
+            },
+            {
+              "name": "فارسی و گرائمر",
+              "maxMarks": 100,
+              "obtainedMarks": 85,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 85
+            },
+            {
+              "name": "ریاضی و حساب",
+              "maxMarks": 100,
+              "obtainedMarks": 94,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 94
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 449,
+          "percentage": 89.8,
+          "kaifiyat": "ممتاز",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 1
+        },
+        {
+          "studentId": "1102",
+          "dob": "05/08/2009",
+          "studentName": "حامد رضا نوری",
+          "studentNameEn": "Hamid Raza Noori",
+          "fatherName": "قاری مقصود عالم",
+          "fatherNameEn": "Qari Maqsood Alam",
+          "rollNo": "02",
+          "darja": "اعدادیہ",
+          "subjects": [
+            {
+              "name": "قرآن و تجوید",
+              "maxMarks": 100,
+              "obtainedMarks": 78,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 78
+            },
+            {
+              "name": "اردو و املا",
+              "maxMarks": 100,
+              "obtainedMarks": 80,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 80
+            },
+            {
+              "name": "دینیات و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 75,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 75
+            },
+            {
+              "name": "فارسی و گرائمر",
+              "maxMarks": 100,
+              "obtainedMarks": 72,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 72
+            },
+            {
+              "name": "ریاضی و حساب",
+              "maxMarks": 100,
+              "obtainedMarks": 85,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 85
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 390,
+          "percentage": 78,
+          "kaifiyat": "اعلیٰ",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 2
+        },
+        {
+          "studentId": "1103",
+          "dob": "18/11/2010",
+          "studentName": "عبد الرحیم برکاتی",
+          "studentNameEn": "Abdul Rahim Barkati",
+          "fatherName": "حافظ نور محمد",
+          "fatherNameEn": "Hafiz Noor Mohammad",
+          "rollNo": "03",
+          "darja": "اعدادیہ",
+          "subjects": [
+            {
+              "name": "قرآن و تجوید",
+              "maxMarks": 100,
+              "obtainedMarks": 65,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 65
+            },
+            {
+              "name": "اردو و املا",
+              "maxMarks": 100,
+              "obtainedMarks": 70,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 70
+            },
+            {
+              "name": "دینیات و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 68,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 68
+            },
+            {
+              "name": "فارسی و گرائمر",
+              "maxMarks": 100,
+              "obtainedMarks": 62,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 62
+            },
+            {
+              "name": "ریاضی و حساب",
+              "maxMarks": 100,
+              "obtainedMarks": 75,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 75
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 340,
+          "percentage": 68,
+          "kaifiyat": "اعلیٰ",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 3
+        },
+        {
+          "studentId": "1104",
+          "dob": "22/02/2010",
+          "studentName": "محمد ثاقب رضا",
+          "studentNameEn": "Mohammad Saqib Raza",
+          "fatherName": "مولانا رفیق احمد",
+          "fatherNameEn": "Maulana Rafiq Ahmad",
+          "rollNo": "04",
+          "darja": "اعدادیہ",
+          "subjects": [
+            {
+              "name": "قرآن و تجوید",
+              "maxMarks": 100,
+              "obtainedMarks": 55,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 55
+            },
+            {
+              "name": "اردو و املا",
+              "maxMarks": 100,
+              "obtainedMarks": 58,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 58
+            },
+            {
+              "name": "دینیات و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 52,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 52
+            },
+            {
+              "name": "فارسی و گرائمر",
+              "maxMarks": 100,
+              "obtainedMarks": 54,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 54
+            },
+            {
+              "name": "ریاضی و حساب",
+              "maxMarks": 100,
+              "obtainedMarks": 61,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 61
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 280,
+          "percentage": 56,
+          "kaifiyat": "جید",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 4
+        }
+      ],
+      "updatedAt": "2026-10-16T18:18:41.106Z"
+    },
+    {
+      "id": "class-faizan-oola",
+      "madrasaId": "madrasa-faizan-ala-hazrat",
+      "name": "اولی",
+      "nameEn": "Oola",
+      "academicYear": "1447-1448ھ / 2025-2026ء",
+      "status": "published",
+      "resultSourceType": "csv",
+      "googleSheetUrl": "",
+      "sheetTabName": "اولی",
+      "rawSourceData": "Student ID,DOB,Student Name,Father Name,نحو میر و صرف [100],منہاج العربیہ [100],قدوری شریف [100],عقائد و فقہ [100],تجوید و قراءت [100]\n1201,10/02/2008,محمد افروز عالم,محمد شفیق انصاری,90,92,88,95,91\n1202,15/07/2007,غلام مصطفیٰ رضوی,صابر علی رضوی,82,79,85,88,86\n1203,20/09/2008,محمد تسلیم رضا,محبوب عالم,68,72,70,74,76\n1204,11/03/2008,محمد توقیر احمد,نثار احمد,56,52,54,58,60",
+      "lastTestedAt": "2026-10-16T18:18:41.106Z",
+      "testStatus": {
+        "success": true,
+        "message": "✅ Connected\nStudents Found: 4\nSubjects Found: 5\nRequired Fields Found\nResult Data Ready",
+        "studentCount": 4,
+        "subjectCount": 5,
+        "subjects": [
+          {
+            "name": "نحو میر و صرف",
+            "maxMarks": 100
+          },
+          {
+            "name": "منہاج العربیہ",
+            "maxMarks": 100
+          },
+          {
+            "name": "قدوری شریف",
+            "maxMarks": 100
+          },
+          {
+            "name": "عقائد و فقہ",
+            "maxMarks": 100
+          },
+          {
+            "name": "تجوید و قراءت",
+            "maxMarks": 100
+          }
+        ],
+        "missingFields": []
+      },
+      "students": [
+        {
+          "studentId": "1201",
+          "dob": "10/02/2008",
+          "studentName": "محمد افروز عالم",
+          "studentNameEn": "Mohammad Afroz Alam",
+          "fatherName": "محمد شفیق انصاری",
+          "fatherNameEn": "Mohammad Shafiq Ansari",
+          "rollNo": "01",
+          "darja": "اولی",
+          "subjects": [
+            {
+              "name": "نحو میر و صرف",
+              "maxMarks": 100,
+              "obtainedMarks": 90,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 90
+            },
+            {
+              "name": "منہاج العربیہ",
+              "maxMarks": 100,
+              "obtainedMarks": 92,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 92
+            },
+            {
+              "name": "قدوری شریف",
+              "maxMarks": 100,
+              "obtainedMarks": 88,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 88
+            },
+            {
+              "name": "عقائد و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 95,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 95
+            },
+            {
+              "name": "تجوید و قراءت",
+              "maxMarks": 100,
+              "obtainedMarks": 91,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 91
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 456,
+          "percentage": 91.2,
+          "kaifiyat": "ممتاز",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 1
+        },
+        {
+          "studentId": "1202",
+          "dob": "15/07/2007",
+          "studentName": "غلام مصطفیٰ رضوی",
+          "studentNameEn": "Ghulam Mustafa Rizvi",
+          "fatherName": "صابر علی رضوی",
+          "fatherNameEn": "Sabir Ali Rizvi",
+          "rollNo": "02",
+          "darja": "اولی",
+          "subjects": [
+            {
+              "name": "نحو میر و صرف",
+              "maxMarks": 100,
+              "obtainedMarks": 82,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 82
+            },
+            {
+              "name": "منہاج العربیہ",
+              "maxMarks": 100,
+              "obtainedMarks": 79,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 79
+            },
+            {
+              "name": "قدوری شریف",
+              "maxMarks": 100,
+              "obtainedMarks": 85,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 85
+            },
+            {
+              "name": "عقائد و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 88,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 88
+            },
+            {
+              "name": "تجوید و قراءت",
+              "maxMarks": 100,
+              "obtainedMarks": 86,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 86
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 420,
+          "percentage": 84,
+          "kaifiyat": "ممتاز",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 2
+        },
+        {
+          "studentId": "1203",
+          "dob": "20/09/2008",
+          "studentName": "محمد تسلیم رضا",
+          "studentNameEn": "Mohammad Tasleem Raza",
+          "fatherName": "محبوب عالم",
+          "fatherNameEn": "Mehboob Alam",
+          "rollNo": "03",
+          "darja": "اولی",
+          "subjects": [
+            {
+              "name": "نحو میر و صرف",
+              "maxMarks": 100,
+              "obtainedMarks": 68,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 68
+            },
+            {
+              "name": "منہاج العربیہ",
+              "maxMarks": 100,
+              "obtainedMarks": 72,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 72
+            },
+            {
+              "name": "قدوری شریف",
+              "maxMarks": 100,
+              "obtainedMarks": 70,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 70
+            },
+            {
+              "name": "عقائد و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 74,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 74
+            },
+            {
+              "name": "تجوید و قراءت",
+              "maxMarks": 100,
+              "obtainedMarks": 76,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 76
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 360,
+          "percentage": 72,
+          "kaifiyat": "اعلیٰ",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 3
+        },
+        {
+          "studentId": "1204",
+          "dob": "11/03/2008",
+          "studentName": "محمد توقیر احمد",
+          "studentNameEn": "Mohammad Tauqeer Ahmad",
+          "fatherName": "نثار احمد",
+          "fatherNameEn": "Nisar Ahmad",
+          "rollNo": "04",
+          "darja": "اولی",
+          "subjects": [
+            {
+              "name": "نحو میر و صرف",
+              "maxMarks": 100,
+              "obtainedMarks": 56,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 56
+            },
+            {
+              "name": "منہاج العربیہ",
+              "maxMarks": 100,
+              "obtainedMarks": 52,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 52
+            },
+            {
+              "name": "قدوری شریف",
+              "maxMarks": 100,
+              "obtainedMarks": 54,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 54
+            },
+            {
+              "name": "عقائد و فقہ",
+              "maxMarks": 100,
+              "obtainedMarks": 58,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 58
+            },
+            {
+              "name": "تجوید و قراءت",
+              "maxMarks": 100,
+              "obtainedMarks": 60,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 60
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 280,
+          "percentage": 56,
+          "kaifiyat": "جید",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 4
+        }
+      ],
+      "updatedAt": "2026-10-16T18:18:41.106Z"
+    },
+    {
+      "id": "class-faizan-saniya",
+      "madrasaId": "madrasa-faizan-ala-hazrat",
+      "name": "ثانیہ",
+      "nameEn": "Saniya",
+      "academicYear": "1447-1448ھ / 2025-2026ء",
+      "status": "published",
+      "resultSourceType": "csv",
+      "googleSheetUrl": "",
+      "sheetTabName": "ثانیہ",
+      "rawSourceData": "Student ID,DOB,Student Name,Father Name,ہدایۃ النحو [100],نور الایضاح [100],اصول الشاشی [100],ترجمہ قرآن مجید [100],سیرت النبی ﷺ [100]\n1301,01/01/2006,محمد ارشد رضا قادری,عبد القادر خان,94,91,89,96,95\n1302,14/06/2005,ضیاء الحق مبارکپوری,شمس الہدیٰ,84,82,79,88,87\n1303,25/12/2006,ساجد حسین ازہری,منور حسین,72,75,71,78,80\n1304,30/08/2005,محمد دانش رضا,قاسم علی,60,62,58,64,66",
+      "lastTestedAt": "2026-10-16T18:18:41.106Z",
+      "testStatus": {
+        "success": true,
+        "message": "✅ Connected\nStudents Found: 4\nSubjects Found: 5\nRequired Fields Found\nResult Data Ready",
+        "studentCount": 4,
+        "subjectCount": 5,
+        "subjects": [
+          {
+            "name": "ہدایۃ النحو",
+            "maxMarks": 100
+          },
+          {
+            "name": "نور الایضاح",
+            "maxMarks": 100
+          },
+          {
+            "name": "اصول الشاشی",
+            "maxMarks": 100
+          },
+          {
+            "name": "ترجمہ قرآن مجید",
+            "maxMarks": 100
+          },
+          {
+            "name": "سیرت النبی ﷺ",
+            "maxMarks": 100
+          }
+        ],
+        "missingFields": []
+      },
+      "students": [
+        {
+          "studentId": "1301",
+          "dob": "01/01/2006",
+          "studentName": "محمد ارشد رضا قادری",
+          "studentNameEn": "Mohammad Arshad Raza Qadri",
+          "fatherName": "عبد القادر خان",
+          "fatherNameEn": "Abdul Qadir Khan",
+          "rollNo": "01",
+          "darja": "ثانیہ",
+          "subjects": [
+            {
+              "name": "ہدایۃ النحو",
+              "maxMarks": 100,
+              "obtainedMarks": 94,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 94
+            },
+            {
+              "name": "نور الایضاح",
+              "maxMarks": 100,
+              "obtainedMarks": 91,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 91
+            },
+            {
+              "name": "اصول الشاشی",
+              "maxMarks": 100,
+              "obtainedMarks": 89,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 89
+            },
+            {
+              "name": "ترجمہ قرآن مجید",
+              "maxMarks": 100,
+              "obtainedMarks": 96,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 96
+            },
+            {
+              "name": "سیرت النبی ﷺ",
+              "maxMarks": 100,
+              "obtainedMarks": 95,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 95
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 465,
+          "percentage": 93,
+          "kaifiyat": "ممتاز",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 1
+        },
+        {
+          "studentId": "1302",
+          "dob": "14/06/2005",
+          "studentName": "ضیاء الحق مبارکپوری",
+          "studentNameEn": "Zia-ul-Haq Mubarakpuri",
+          "fatherName": "شمس الہدیٰ",
+          "fatherNameEn": "Shams-ul-Huda",
+          "rollNo": "02",
+          "darja": "ثانیہ",
+          "subjects": [
+            {
+              "name": "ہدایۃ النحو",
+              "maxMarks": 100,
+              "obtainedMarks": 84,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 84
+            },
+            {
+              "name": "نور الایضاح",
+              "maxMarks": 100,
+              "obtainedMarks": 82,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 82
+            },
+            {
+              "name": "اصول الشاشی",
+              "maxMarks": 100,
+              "obtainedMarks": 79,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 79
+            },
+            {
+              "name": "ترجمہ قرآن مجید",
+              "maxMarks": 100,
+              "obtainedMarks": 88,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 88
+            },
+            {
+              "name": "سیرت النبی ﷺ",
+              "maxMarks": 100,
+              "obtainedMarks": 87,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 87
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 420,
+          "percentage": 84,
+          "kaifiyat": "ممتاز",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 2
+        },
+        {
+          "studentId": "1303",
+          "dob": "25/12/2006",
+          "studentName": "ساجد حسین ازہری",
+          "studentNameEn": "Sajid Husain Azhari",
+          "fatherName": "منور حسین",
+          "fatherNameEn": "Munawwar Husain",
+          "rollNo": "03",
+          "darja": "ثانیہ",
+          "subjects": [
+            {
+              "name": "ہدایۃ النحو",
+              "maxMarks": 100,
+              "obtainedMarks": 72,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 72
+            },
+            {
+              "name": "نور الایضاح",
+              "maxMarks": 100,
+              "obtainedMarks": 75,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 75
+            },
+            {
+              "name": "اصول الشاشی",
+              "maxMarks": 100,
+              "obtainedMarks": 71,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 71
+            },
+            {
+              "name": "ترجمہ قرآن مجید",
+              "maxMarks": 100,
+              "obtainedMarks": 78,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 78
+            },
+            {
+              "name": "سیرت النبی ﷺ",
+              "maxMarks": 100,
+              "obtainedMarks": 80,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 80
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 376,
+          "percentage": 75.2,
+          "kaifiyat": "اعلیٰ",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 3
+        },
+        {
+          "studentId": "1304",
+          "dob": "30/08/2005",
+          "studentName": "محمد دانش رضا",
+          "studentNameEn": "Mohammad Danish Raza",
+          "fatherName": "قاسم علی",
+          "fatherNameEn": "Qasim Ali",
+          "rollNo": "04",
+          "darja": "ثانیہ",
+          "subjects": [
+            {
+              "name": "ہدایۃ النحو",
+              "maxMarks": 100,
+              "obtainedMarks": 60,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 60
+            },
+            {
+              "name": "نور الایضاح",
+              "maxMarks": 100,
+              "obtainedMarks": 62,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 62
+            },
+            {
+              "name": "اصول الشاشی",
+              "maxMarks": 100,
+              "obtainedMarks": 58,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 58
+            },
+            {
+              "name": "ترجمہ قرآن مجید",
+              "maxMarks": 100,
+              "obtainedMarks": 64,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 64
+            },
+            {
+              "name": "سیرت النبی ﷺ",
+              "maxMarks": 100,
+              "obtainedMarks": 66,
+              "isAbsent": false,
+              "isPassed": true,
+              "percentage": 66
+            }
+          ],
+          "totalMarks": 500,
+          "obtainedMarks": 310,
+          "percentage": 62,
+          "kaifiyat": "جید",
+          "isAbsent": false,
+          "failedSubjectCount": 0,
+          "position": 4
+        }
+      ],
+      "updatedAt": "2026-10-16T18:18:41.106Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "service-jobs",
+      "slug": "jobs",
+      "title": "Islamic Jobs Portal",
+      "shortDescription": "Find opportunities in Imamat, teaching, Azan, Khitabat and other Islamic positions.",
+      "fullDescription": "A dedicated platform connecting Islamic institutions, mosques, and madaris with qualified scholars, Huffaz, Qaris, teachers, and Imams.",
+      "icon": "briefcase",
+      "url": "https://imamattadrees.in/jobs",
+      "buttonText": "Explore Now",
+      "isActive": true,
+      "openInNewTab": true,
+      "displayOrder": 1,
+      "badge": "Popular",
+      "showInNavbar": true,
+      "menuTitle": "Islamic Jobs Portal",
+      "createdAt": "2026-09-27T17:22:10.061Z",
+      "updatedAt": "2026-09-27T17:22:10.062Z"
+    },
+    {
+      "id": "service-mayaar",
+      "slug": "mayaar",
+      "title": "Mayaar-e-Madaris",
+      "shortDescription": "A centralized academic and examination system connecting affiliated Madaris.",
+      "fullDescription": "Comprehensive examination management, student portal, marksheets, verification and digital grade book for Islamic madrasas.",
+      "icon": "school",
+      "url": "#results-portal",
+      "buttonText": "Explore Now",
+      "isActive": true,
+      "openInNewTab": false,
+      "displayOrder": 2,
+      "badge": "Live Portal",
+      "showInNavbar": true,
+      "menuTitle": "Mayaar-e-Madaris",
+      "createdAt": "2026-09-27T17:22:10.062Z",
+      "updatedAt": "2026-09-27T17:22:10.062Z"
+    },
+    {
+      "id": "service-academy",
+      "slug": "academy",
+      "title": "Online Academy",
+      "shortDescription": "Learn Quran, Tajweed, Islamic studies and other subjects through online classes.",
+      "fullDescription": "Interactive online classes with experienced Asatizah for Quran recitation, Tajweed, Darse Nizami basics and specialized subjects.",
+      "icon": "graduation-cap",
+      "url": "https://imamattadrees.in/academy",
+      "buttonText": "Explore Now",
+      "isActive": true,
+      "openInNewTab": true,
+      "displayOrder": 3,
+      "badge": "Admissions Open",
+      "showInNavbar": true,
+      "menuTitle": "Online Academy",
+      "createdAt": "2026-09-27T17:22:10.062Z",
+      "updatedAt": "2026-09-27T17:22:10.062Z"
+    },
+    {
+      "id": "service-quiz",
+      "slug": "quiz",
+      "title": "Daily Islamic Quiz",
+      "shortDescription": "Test your Islamic knowledge through engaging quizzes, competitions and learning activities.",
+      "fullDescription": "Engaging daily and weekly quiz competitions on Seerat-un-Nabi, Quran, Hadith, Fiqh and Islamic history for students and seekers.",
+      "icon": "trophy",
+      "url": "https://islamic-quiz-hub.lovable.app",
+      "buttonText": "Explore Now",
+      "isActive": true,
+      "openInNewTab": false,
+      "openMode": "embed",
+      "displayOrder": 4,
+      "badge": "",
+      "showInNavbar": true,
+      "menuTitle": "Daily Islamic Quiz",
+      "iframeTitle": "Daily Islamic Quiz",
+      "iframeSubtitle": "imamattadrees.in/quiz",
+      "createdAt": "2026-09-27T17:22:10.062Z",
+      "updatedAt": "2026-10-03T11:40:00.000Z"
+    },
+    {
+      "id": "service-shopping",
+      "slug": "shop",
+      "title": "Islamic Shopping Center",
+      "shortDescription": "Explore Islamic clothing, books, prayer essentials, perfumes and other Islamic products.",
+      "fullDescription": "Curated collection of authentic Islamic attire, attar/perfumes, prayer rugs, Qurans, classical Islamic texts and essentials.",
+      "icon": "shopping-bag",
+      "url": "https://imamattadrees.in/shop",
+      "buttonText": "Explore Now",
+      "isActive": true,
+      "openInNewTab": true,
+      "displayOrder": 5,
+      "badge": "Store",
+      "showInNavbar": true,
+      "menuTitle": "Islamic Shopping Center",
+      "createdAt": "2026-09-27T17:22:10.062Z",
+      "updatedAt": "2026-09-27T17:22:10.062Z"
+    },
+    {
+      "id": "service-qna",
+      "slug": "qna",
+      "title": "Islamic Q&A",
+      "shortDescription": "Explore Islamic questions and answers and find useful guidance on religious matters.",
+      "fullDescription": "Authentic fatwas, clarifications and guidance on everyday spiritual, financial and personal issues verified by qualified Muftis.",
+      "icon": "message-circle",
+      "url": "https://imamattadrees.in/qa",
+      "buttonText": "Explore Now",
+      "isActive": true,
+      "openInNewTab": true,
+      "displayOrder": 6,
+      "badge": "Guidance",
+      "showInNavbar": true,
+      "menuTitle": "Islamic Q&A",
+      "createdAt": "2026-09-27T17:22:10.062Z",
+      "updatedAt": "2026-10-03T11:40:00.000Z"
+    },
+    {
+      "id": "service-facebook",
+      "slug": "facebook",
+      "title": "Official Facebook Page",
+      "shortDescription": "Connect with our official Facebook page for the latest updates, scholarly articles, and announcements.",
+      "fullDescription": "The official Facebook page of Imamat wa Tadrees featuring daily Islamic articles, scholarly guidance, lectures, and educational announcements.",
+      "icon": "facebook",
+      "url": "https://www.facebook.com/imamattadrees",
+      "buttonText": "Facebook Page",
+      "isActive": true,
+      "openInNewTab": true,
+      "displayOrder": 7,
+      "badge": "Social",
+      "showInNavbar": true,
+      "menuTitle": "Facebook Page",
+      "createdAt": "2026-10-08T01:19:57.473Z",
+      "updatedAt": "2026-10-08T01:19:57.473Z"
+    }
+  ],
+  "appsScriptWebAppUrl": "https://script.google.com/macros/s/AKfycbzwA39m2gSyOhbwLU0xqj_w5gkvKUs9LbBK3QgWVZD64rYe47whR_G6fw7EPwtXqH2mGQ/exec",
+  "madrasaFormStatus": {
+    "enabled": true,
+    "greeting": "السلام علیکم ورحمۃ اللہ وبرکاتہ",
+    "message": "ابھی اس پر کام ہو رہا ہے\nکچھ دن بعد دوبارہ کوشش کریں",
+    "updatedAt": "2026-10-08T03:24:32.292Z"
+  },
+  "centralKaifiyatRules": [
+    {
+      "id": "1",
+      "minPercentage": 80,
+      "maxPercentage": 100,
+      "title": "ممتاز",
+      "colorClass": "text-emerald-700 bg-emerald-50 border-emerald-300"
+    },
+    {
+      "id": "2",
+      "minPercentage": 60,
+      "maxPercentage": 79.99,
+      "title": "اعلیٰ",
+      "colorClass": "text-blue-700 bg-blue-50 border-blue-300"
+    },
+    {
+      "id": "3",
+      "minPercentage": 50,
+      "maxPercentage": 59.99,
+      "title": "جید",
+      "colorClass": "text-amber-700 bg-amber-50 border-amber-300"
+    },
+    {
+      "id": "4",
+      "minPercentage": 33,
+      "maxPercentage": 49.99,
+      "title": "مقبول",
+      "colorClass": "text-stone-700 bg-stone-100 border-stone-300"
+    }
+  ],
+  "centralPassingSettings": {
+    "passingPercentage": 33,
+    "oneSubjectFailLabel": "مجاز",
+    "twoOrMoreFailLabel": "ناکام",
+    "absentFailLabel": "ناکام"
+  }
+}

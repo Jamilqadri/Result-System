@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Madaris collection
+    match /madaris/{madrasaId} {
+      allow read: if true;
+      allow create: if request.resource.data.id is string
+                    && request.resource.data.code is string
+                    && request.resource.data.urduName is string;
+      allow update: if true;
+      allow delete: if true;
+    }
+
+    // Classes collection
+    match /classes/{classId} {
+      allow read: if true;
+      allow create, update, delete: if true;
+    }
+
+    // System configurations
+    match /system_configs/{configId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}

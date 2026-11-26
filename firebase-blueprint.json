@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "Madrasa": {
+      "title": "Madrasa",
+      "description": "Registered Islamic Madrasa institution with details and sheet link",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "code": { "type": "string" },
+        "serialNumber": { "type": "number" },
+        "urduName": { "type": "string" },
+        "englishName": { "type": "string" },
+        "address": { "type": "string" },
+        "googleSheetUrl": { "type": "string" },
+        "spreadsheetId": { "type": "string" },
+        "principalId": { "type": "string" },
+        "principalPassword": { "type": "string" },
+        "principalName": { "type": "string" },
+        "principalPhone": { "type": "string" },
+        "registrationStatus": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "isVerified": { "type": "boolean" },
+        "examTitle": { "type": "string" },
+        "logo": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "code", "urduName"]
+    },
+    "MadrasaClass": {
+      "title": "MadrasaClass",
+      "description": "Academic grade / class tab associated with a madrasa",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "madrasaId": { "type": "string" },
+        "name": { "type": "string" },
+        "academicYear": { "type": "string" },
+        "status": { "type": "string" },
+        "resultSourceType": { "type": "string" },
+        "googleSheetUrl": { "type": "string" },
+        "sheetTabName": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "madrasaId", "name"]
+    },
+    "SystemConfig": {
+      "title": "SystemConfig",
+      "description": "Global portal configurations and admin settings",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "resultAdminPin": { "type": "string" },
+        "managerAdminPin": { "type": "string" },
+        "appsScriptWebAppUrl": { "type": "string" },
+        "portalLogo": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id"]
+    }
+  },
+  "firestore": {
+    "/madaris/{madrasaId}": {
+      "schema": "Madrasa",
+      "description": "Collection of all registered madaris"
+    },
+    "/classes/{classId}": {
+      "schema": "MadrasaClass",
+      "description": "Collection of classes linked to madaris"
+    },
+    "/system_configs/{configId}": {
+      "schema": "SystemConfig",
+      "description": "Central system configuration documents"
+    }
+  }
+}

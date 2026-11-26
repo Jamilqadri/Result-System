@@ -1,0 +1,8 @@
+{
+  "name": "Remix مِعیارِ مدارس - ڈیجیٹل رزلٹ پورٹل",
+  "description": "مِعیارِ مدارس: تمام مدارس کا مرکزی ڈیجیٹل امتحانی رزلٹ اور خودکار کارڈ جنریٹر سسٹم",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

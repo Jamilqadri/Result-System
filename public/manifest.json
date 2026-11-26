@@ -1,0 +1,55 @@
+{
+  "id": "/",
+  "name": "معیارِ مدارس — پورٹل و رزلٹ سسٹم",
+  "short_name": "معیار مدارس",
+  "description": "معیارِ مدارس — جامع امتحانی، رزلٹ اور پرنسپل ڈیش بورڈ ویب ایپ",
+  "theme_color": "#064e3b",
+  "background_color": "#064e3b",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ایڈمن پینل",
+      "short_name": "ایڈمن",
+      "description": "معیارِ مدارس ایڈمن ڈیش بورڈ",
+      "url": "/admin",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "پرنسپل پورٹل",
+      "short_name": "پرنسپل",
+      "description": "مدرسہ پرنسپل پورٹل لاگ ان",
+      "url": "/login",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "امتحانی نتائج",
+      "short_name": "نتائج",
+      "description": "آن لائن رزلٹ پورٹل",
+      "url": "/results",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
